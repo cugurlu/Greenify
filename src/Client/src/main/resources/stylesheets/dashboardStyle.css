@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Designio Regular';
+  src: url('DesignioRegular.otf');
+}
+
+.root {
+  -fx-background-color:  #f9fffb;
+  /*-fx-font-family: "Designio Regular";*/
+  /*-fx-font-family: Corbel;    !*this doesn't work for some reason*!*/
+}
+
+#dashboardButton {
+  -fx-background-color: #5a635c;
+}
+#dashboardButton:hover {
+  -fx-background-color: #677069;
+}
+#dashboardButton:pressed {
+  -fx-background-color: #b7e2c2;
+}
+
+#userButton {
+  -fx-background-color: #5a635c;
+}
+#userButton:hover {
+  -fx-background-color: #677069;
+}
+#userButton:pressed {
+  -fx-background-color: #b7e2c2;
+}
+
+#activitiesButton {
+  -fx-background-color: #5a635c;
+}
+#activitiesButton:hover {
+  -fx-background-color: #677069;
+}
+#activitiesButton:pressed {
+  -fx-background-color: #b7e2c2;
+}
+#friendsButton {
+  -fx-background-color: #5a635c;
+}
+#friendsButton:hover {
+  -fx-background-color: #677069;
+}
+#friendsButton:pressed {
+  -fx-background-color: #b7e2c2;
+}
+
+
+#addNewActivityButton:pressed {
+  -fx-border-color: #497251;
+}
+
+#logOutButton {
+  -fx-background-color: #5a635c;
+  -fx-text-fill: #e3efe4;
+}
+#logOutButton:hover {
+  -fx-background-color: #e08f8f;
+}
+#logOutButton:pressed {
+  -fx-background-color: #ba3737;
+}
+
+/*friends table*/
+.table-view .column-header {
+  /*-fx-background-color: linear-gradient(#4b7a3d, #588c58);*/
+  -fx-background-color: #5a635c;
+
+
+}
+.table-view .column-header .label {
+  -fx-text-fill: #d4d6d4;
+  -fx-font-size: 18px;
+}
+
+.table-view .table-cell {
+  -fx-font-size: 17px;
+}
+
+.table-row-cell {
+  -fx-background-color: #c4f2cb;
+}
+
+.table-row-cell:odd {
+  -fx-background-color: #b7e2c2;
+}
+
+.activityField {
+  -fx-font-size: 14px;
+}
+
+.toolTipButton {
+  -fx-background-color: transparent;
+  -fx-padding: 0 0 0 0;
+}
+
+.tooltip {
+  -fx-background-color: #d0f2d3;
+  -fx-text-fill: #364c38;
+  -fx-font-size: 14px;
+}
+
+
+

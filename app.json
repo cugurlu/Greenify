@@ -1,0 +1,5 @@
+{
+  "name": "Greenify on Heroku",
+  "description": "A CO2 app",
+  "image": "heroku/gradle"
+}

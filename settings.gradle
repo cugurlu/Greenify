@@ -1,4 +1,4 @@
-rootProject.name = 'OOPP'
+rootProject.name = 'Greenify'
 
 include ':src:Client'
 include ':src:Common'
